@@ -4,8 +4,8 @@
   "description": "Template for lambda functions run with node and ts",
   "scripts": {
     "tsc": "tsc",
-    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
-    "prod": "tsc && node ./src/index.js",
+    "dev": "ts-node-dev -r dotenv/config --respawn --transpileOnly ./src/index.ts",
+    "prod": "tsc && node -r dotenv/config ./src/index.js",
     "test": "jest src"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@types/jest": "24.0.18",
+    "@types/node": "12.7.4",
     "jest": "24.9.0",
     "jest-each": "24.9.0",
     "ts-jest": "24.0.2",
