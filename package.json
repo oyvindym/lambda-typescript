@@ -1,7 +1,7 @@
 {
-  "name": "lambda-typescript",
+  "name": "node-ts",
   "version": "1.0.0",
-  "description": "Template for lambda functions run with node and ts",
+  "description": "Template for node and ts",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

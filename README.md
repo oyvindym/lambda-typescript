@@ -1,4 +1,4 @@
-# Lambda + TypeScript template
+# Node + TypeScript template
 
 ## Environment variables
 
